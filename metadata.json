@@ -1,0 +1,8 @@
+{
+  "name": "Demo",
+  "author": "Marien Fressinaud",
+  "description": "Extension for the demo version of FreshRSS",
+  "version": 0.1,
+  "entrypoint": "Demo",
+  "type": "system"
+}

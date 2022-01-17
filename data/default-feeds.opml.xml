@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+    <head>
+        <title>FreshRSS demo feeds</title>
+        <dateCreated>Mon, 17 Jan 2022 12:50:07</dateCreated>
+    </head>
+    <body>
+        <outline text="Blogs">
+            <outline text="Framablog" type="rss" xmlUrl="http://www.framablog.org/index.php/feed/atom" htmlUrl="http://www.framablog.org/index.php/" description=""/>
+            <outline text="Planet GNOME" type="rss" xmlUrl="http://planet.gnome.org/rss20.xml" htmlUrl="https://planet.gnome.org/" description=""/>
+            <outline text="Fedora Magazine" type="rss" xmlUrl="http://fedoramagazine.org/feed/" htmlUrl="http://fedoramagazine.org/" description=""/>
+            <outline text="Mozilla Hacks - the Web developer blog" type="rss" xmlUrl="https://hacks.mozilla.org/feed/" htmlUrl="https://hacks.mozilla.org/" description="hacks.mozilla.org"/>
+        </outline>
+        <outline text="Comics">
+            <outline text="bouletcorp" type="rss" xmlUrl="http://www.bouletcorp.com/feed/" htmlUrl="http://www.bouletcorp.com/" description="le parpaing de la fraise sur vos tartelettes"/>
+            <outline text="The Oatmeal" type="rss" xmlUrl="http://feeds.feedburner.com/oatmealfeed" htmlUrl="http://theoatmeal.com/" description=""/>
+            <outline type="rss" text="xkcd.com" xmlUrl="https://xkcd.com/atom.xml" htmlUrl="https://xkcd.com/" />
+        </outline>
+        <outline text="FreshRSS">
+            <outline text="FreshRSS releases" type="rss" xmlUrl="https://github.com/FreshRSS/FreshRSS/releases.atom" htmlUrl="https://github.com/FreshRSS/FreshRSS/" description="FreshRSS releases @ GitHub"/>
+            <outline type="rss" text="FreshRSS on Reddit" xmlUrl="https://www.reddit.com/r/freshrss/.rss" htmlUrl="https://www.reddit.com/r/freshrss/" />
+        </outline>
+    </body>
+</opml>
