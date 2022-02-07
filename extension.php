@@ -35,6 +35,7 @@ class DemoExtension extends Minz_Extension {
     }
 
     public function init() {
+        $this->registerController('extension');
         $this->registerViews();
     }
 }
