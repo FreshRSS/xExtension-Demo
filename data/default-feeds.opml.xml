@@ -12,7 +12,7 @@
             <outline text="Mozilla Hacks - the Web developer blog" type="rss" xmlUrl="https://hacks.mozilla.org/feed/" htmlUrl="https://hacks.mozilla.org/" description="hacks.mozilla.org"/>
         </outline>
         <outline text="Comics">
-            <outline text="bouletcorp" type="rss" xmlUrl="http://www.bouletcorp.com/feed/" htmlUrl="http://www.bouletcorp.com/" description="le parpaing de la fraise sur vos tartelettes"/>
+            <outline text="bouletcorp" type="rss" xmlUrl="https://bouletcorp.com/feed/rss.xml" htmlUrl="http://www.bouletcorp.com/" description="le parpaing de la fraise sur vos tartelettes"/>
             <outline text="The Oatmeal" type="rss" xmlUrl="http://feeds.feedburner.com/oatmealfeed" htmlUrl="http://theoatmeal.com/" description=""/>
             <outline type="rss" text="xkcd.com" xmlUrl="https://xkcd.com/atom.xml" htmlUrl="https://xkcd.com/" />
         </outline>
