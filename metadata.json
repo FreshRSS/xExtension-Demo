@@ -2,7 +2,7 @@
   "name": "Demo",
   "author": "Marien Fressinaud",
   "description": "Extension for the demo version of FreshRSS",
-  "version": 0.1,
+  "version": 0.2,
   "entrypoint": "Demo",
   "type": "system"
 }
