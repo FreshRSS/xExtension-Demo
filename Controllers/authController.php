@@ -7,6 +7,7 @@ class FreshExtension_auth_Controller extends FreshRSS_auth_Controller {
 	        Minz_Request::bad('You can’t change the authentication method', ['c' => 'auth']);
 	        return;
 	    }
+	    Minz_Request::_param('unsafe_autologin', false); // Disallow enabling unsafe autologin, since it may cause issues
 
 	    parent::indexAction();
 	}

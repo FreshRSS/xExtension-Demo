@@ -38,6 +38,7 @@ class DemoExtension extends Minz_Extension {
         $this->registerController('extension');
         $this->registerController('user');
         $this->registerController('auth');
+        $this->registerController('configure');
         $this->registerViews();
     }
 }
