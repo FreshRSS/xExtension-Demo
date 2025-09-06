@@ -12,7 +12,7 @@
 		<div class="form-group">
 			<label for="passwordPlain"><?= _t('gen.auth.password') ?></label>
 			<div class="stick">
-				<input type="password" id="passwordPlain" required="required" value="demodemo" />
+				<input type="password" id="passwordPlain" required="required" value="<?= Minz_User::name() === 'demo' ? 'demodemo' : '' ?>" />
 				<button type="button" class="btn toggle-password" data-toggle="passwordPlain"><?= _i('key') ?></button>
 			</div>
 			<input type="hidden" id="challenge" name="challenge" />
