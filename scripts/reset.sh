@@ -6,6 +6,7 @@ CLI_DIR=$CURRENT_DIR/../../../cli
 
 # Default user cannot be deleted by the CLI, so we delete the users manually
 rm -rf $DATA_DIR/users/*
+mkdir $DATA_DIR/users/_
 $CLI_DIR/create-user.php --user demo --password 'demodemo' --language en
 $CLI_DIR/actualize-user.php --user demo
 
