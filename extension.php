@@ -34,7 +34,21 @@ class DemoExtension extends Minz_Extension {
         return true;
     }
 
+    public function authAutofill(string $field_name): string {
+        if (Minz_Request::is('auth', 'formLogin') ||
+        	Minz_Request::is('auth', 'reauth')
+        ) {
+        	return match ($field_name) {
+        		'username' => 'demo',
+        		'password' => 'demodemo',
+        		default => '',
+        	};
+        }
+        return '';
+    }
+
     public function init() {
+        $this->registerHook(Minz_HookType::AutofillField, [$this, 'authAutofill']);
         $this->registerController('extension');
         $this->registerController('user');
         $this->registerController('auth');
