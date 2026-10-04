@@ -18,7 +18,7 @@
         </outline>
         <outline text="FreshRSS">
             <outline text="FreshRSS releases" type="rss" xmlUrl="https://github.com/FreshRSS/FreshRSS/releases.atom" htmlUrl="https://github.com/FreshRSS/FreshRSS/" description="FreshRSS releases @ GitHub"/>
-            <outline type="rss" text="FreshRSS on Reddit" xmlUrl="https://www.reddit.com/r/freshrss/.rss" htmlUrl="https://www.reddit.com/r/freshrss/" />
+            <outline text="FreshRSS" type="rss" xmlUrl="https://framapiaf.org/@freshrss.rss" htmlUrl="https://framapiaf.org/@freshrss" description="Messages publics de @freshrss@framapiaf.org"/>
         </outline>
     </body>
 </opml>
