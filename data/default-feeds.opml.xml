@@ -19,7 +19,7 @@
         <outline text="FreshRSS">
             <outline text="FreshRSS releases" type="rss" xmlUrl="https://github.com/FreshRSS/FreshRSS/releases.atom" htmlUrl="https://github.com/FreshRSS/FreshRSS/" description="FreshRSS releases @ GitHub"/>
             <outline text="Recent discussions in FreshRSS/FreshRSS" type="rss" xmlUrl="https://github.com/FreshRSS/FreshRSS/discussions.atom" htmlUrl="https://github.com/FreshRSS/FreshRSS/discussions"/>
-            <outline text="FreshRSS" type="rss" xmlUrl="https://framapiaf.org/@freshrss.rss" htmlUrl="https://framapiaf.org/@freshrss" description="Messages publics de @freshrss@framapiaf.org"/>
+            <outline text="FreshRSS (Mastodon)" type="rss" xmlUrl="https://framapiaf.org/@freshrss.rss" htmlUrl="https://framapiaf.org/@freshrss" description="Messages publics de @freshrss@framapiaf.org"/>
         </outline>
     </body>
 </opml>
