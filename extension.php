@@ -48,7 +48,7 @@ class DemoExtension extends Minz_Extension {
     }
 
     public function init() {
-        $this->registerHook(Minz_HookType::AutofillField, [$this, 'authAutofill']);
+        $this->registerHook(Minz_HookType::AutofillField, $this->authAutofill(...));
         $this->registerController('extension');
         $this->registerController('user');
         $this->registerController('auth');
